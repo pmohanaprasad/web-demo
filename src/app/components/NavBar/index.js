@@ -22,21 +22,28 @@ function NavBar(args) {
   return (
     <div>
       <Navbar {...args} color="dark" dark>
-        <NavbarBrand href="/">Demo App</NavbarBrand>
+        <NavbarBrand href="/dashboard">Demo App</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="/">Omega Labs</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
-              </NavLink>
+              <NavLink href="/">Qaly Pharmacy</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">Shivani's Kitchen</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">Abhinaya Agencies</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">Maha Agencies</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                Contacts
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>Option 1</DropdownItem>
@@ -46,7 +53,6 @@ function NavBar(args) {
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>
     </div>
