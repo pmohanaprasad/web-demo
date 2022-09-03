@@ -1,24 +1,16 @@
 import React from "react";
-import {
-  Button,
-  Card,
-  CardBody,
-  CardHeader,
-  CardSubtitle,
-  CardText,
-  CardTitle,
-  Col,
-  Container,
-  Row,
-} from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
+// import Visualize from "./containers/Visualize";
+import Cards from "../../components/Cards";
 import "./dashboardStyle.scss";
 
 const Dashboard = () => {
   return (
     <Container fluid className="p-0">
       <Row className="d-flex justify-content-center">
-        <Col lg="3" className="m-4">
-          <Card>
+        <Col className="m-4">
+          <Cards />
+          {/* <Card>
             <img
               alt="Sample"
               src="https://www.omegalabs.net/media.acux/c266694a-4e67-470d-95dd-5e37d454b5ca-312x"
@@ -108,7 +100,7 @@ const Dashboard = () => {
               </CardText>
               <Button>Click Here</Button>
             </CardBody>
-          </Card>
+          </Card> */}
         </Col>
       </Row>
     </Container>
