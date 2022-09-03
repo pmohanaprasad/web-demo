@@ -41,12 +41,9 @@ function Cards() {
                   </CardText>
                 </CardBody>
                 <CardFooter>
-                  <a href="https://www.lalpathlabs.com/" target="_blank">
+                  <Link to="/visualize" className="button-7">
                     Click here to know more
-                  </a>
-                  {/* <Link to="/trianglepiper" className="button-7">
-                    Click here to know more
-                  </Link> */}
+                  </Link>
                 </CardFooter>
               </Card>
             </Col>
@@ -69,12 +66,9 @@ function Cards() {
                   </CardText>
                 </CardBody>
                 <CardFooter>
-                  <a href="https://pharmeasy.in/" target="_blank">
+                  <Link to="/visualize" className="button-7">
                     Click here to know more
-                  </a>
-                  {/* <Link to="/durov" className="button-7">
-                    Click here to know more
-                  </Link> */}
+                  </Link>
                 </CardFooter>
               </Card>
             </Col>
@@ -95,12 +89,9 @@ function Cards() {
                   </CardText>
                 </CardBody>
                 <CardFooter>
-                  <a href="https://mittaikadai.online/" target="_blank">
+                  <Link to="/visualize" className="button-7">
                     Click here to know more
-                  </a>
-                  {/* <Link to="/gibbs" className="button-7">
-                    Click here to know more
-                  </Link> */}
+                  </Link>
                 </CardFooter>
               </Card>
             </Col>
@@ -121,12 +112,9 @@ function Cards() {
                   </CardText>
                 </CardBody>
                 <CardFooter>
-                  <a href="https://www.housejoy.in/" target="_blank">
+                  <Link to="/visualize" className="button-7">
                     Click here to know more
-                  </a>
-                  {/* <Link to="/chadha" className="button-7">
-                    Click here to know more
-                  </Link> */}
+                  </Link>
                 </CardFooter>
               </Card>
             </Col>
@@ -147,12 +135,9 @@ function Cards() {
                   </CardText>
                 </CardBody>
                 <CardFooter>
-                  <a href="https://www.graceonline.in/" target="_blank">
+                  <Link to="/visualize" className="button-7">
                     Click here to know more
-                  </a>
-                  {/* <Link to="/trianglepiper" className="button-7">
-                    Click here to know more
-                  </Link> */}
+                  </Link>
                 </CardFooter>
               </Card>
             </Col>
