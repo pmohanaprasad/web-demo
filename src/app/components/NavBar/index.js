@@ -11,7 +11,6 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
 } from "reactstrap";
 
 function NavBar(args) {
@@ -27,29 +26,26 @@ function NavBar(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/">Omega Labs</NavLink>
+              <NavLink href="/visualize">Omega Labs</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Qaly Pharmacy</NavLink>
+              <NavLink href="/visualize">Qaly Pharmacy</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Shivani's Kitchen</NavLink>
+              <NavLink href="/visualize">Shivani's Kitchen</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Abhinaya Agencies</NavLink>
+              <NavLink href="/visualize">Abhinaya Agencies</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Maha Agencies</NavLink>
+              <NavLink href="/visualize">Maha Agencies</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Contacts
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
+                <DropdownItem>About us</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>

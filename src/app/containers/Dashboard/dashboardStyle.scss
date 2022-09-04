@@ -2,5 +2,6 @@
   height: 100px;
 }
 
-body {
+body::-webkit-scrollbar {
+  display: none;
 }

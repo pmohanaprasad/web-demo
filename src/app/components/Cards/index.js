@@ -13,10 +13,6 @@ import {
 } from "reactstrap";
 import "./cardsStyle.scss";
 
-// import SidebarLayout from "../../components/SidebarLayout";
-
-// import "./cards.scss";
-
 function Cards() {
   return (
     <Container fluid className="h-100 p-0 ">
@@ -24,15 +20,15 @@ function Cards() {
         <Col className="pe-4 pt-3 pb-3 overflow-auto">
           <Row>
             <Col lg="4">
-              <Card className="my-2 mx-2" style={{ height: "30rem" }}>
-                <CardHeader>OMEGA LABS </CardHeader>
+              <Card className="my-2 mx-2" style={{ height: "33rem" }}>
+                <CardHeader>Omega Labs</CardHeader>
                 <CardBody>
                   <img
                     src="http://propertyyy.com/wp-content/uploads/2020/11/dr-lal-pathlabs-stock-research.png"
                     alt=""
                     className="img-fluid"
                   ></img>
-                  <CardText>
+                  <CardText className="pt-2">
                     Dr. Lal PathLabs, Rohini is NABL certified pathology lab in
                     India. It is also among the few Indian laboratories which
                     accredited by CAP (College of American Pathologists) and
@@ -48,7 +44,7 @@ function Cards() {
               </Card>
             </Col>
             <Col lg="4">
-              <Card className="my-2 mx-2" style={{ height: "30rem" }}>
+              <Card className="my-2 mx-2" style={{ height: "33rem" }}>
                 <CardHeader>Qaly Pharmacy</CardHeader>
                 <CardBody>
                   <img
@@ -56,7 +52,7 @@ function Cards() {
                     alt=""
                     className="img-fluid"
                   ></img>
-                  <CardText>
+                  <CardText className="pt-2">
                     PharmEasy is a consumer healthcare “super app” that provides
                     consumers with on-demand, home delivered access to a wide
                     range of prescription, OTC pharmaceutical, other consumer
@@ -73,8 +69,8 @@ function Cards() {
               </Card>
             </Col>
             <Col lg="4">
-              <Card className="my-2 mx-2" style={{ height: "30rem" }}>
-                <CardHeader>Shivani’s KITCHEN</CardHeader>
+              <Card className="my-2 mx-2" style={{ height: "33rem" }}>
+                <CardHeader>Shivani's Kitchen</CardHeader>
                 <CardBody>
                   <div className="d-flex justify-content-center">
                     <img
@@ -83,7 +79,7 @@ function Cards() {
                       className="img-fluid w-75 h-auto"
                     ></img>
                   </div>
-                  <CardText>
+                  <CardText className="pt-2">
                     Mittai Kadai is an online food ordering website with
                     delivery all over India.
                   </CardText>
@@ -97,15 +93,15 @@ function Cards() {
             </Col>
 
             <Col lg="6">
-              <Card className="my-2" style={{ height: "30rem" }}>
-                <CardHeader>Harish Agencies</CardHeader>
+              <Card className="my-2" style={{ height: "33rem" }}>
+                <CardHeader>Abhinaya Agencies</CardHeader>
                 <CardBody>
                   <img
                     src="https://www.newsorbiter.com/wp-content/uploads/2020/07/housejoy.jpg"
                     alt=""
                     className="img-fluid"
                   ></img>
-                  <CardText>
+                  <CardText className="pt-2">
                     HouseJoy is a 100% transparent house construction company
                     using an Project Management Consultants business model.
                     Bangalore's best house construction company.
@@ -119,7 +115,7 @@ function Cards() {
               </Card>
             </Col>
             <Col lg="6">
-              <Card className="my-2" style={{ height: "30rem" }}>
+              <Card className="my-2" style={{ height: "33rem" }}>
                 <CardHeader>Maha Agencies</CardHeader>
                 <CardBody>
                   <img
@@ -127,7 +123,7 @@ function Cards() {
                     alt=""
                     className="img-fluid"
                   ></img>
-                  <CardText>
+                  <CardText className="pt-2">
                     GRACE SUPERMARKET’s first retail store was commissioned in
                     Chennai in the year 1972. The augmentation took superior
                     elevation and has positioned in the modern supermarket style
