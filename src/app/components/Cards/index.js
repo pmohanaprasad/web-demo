@@ -20,9 +20,9 @@ function Cards() {
         <Col className="pe-4 pt-3 pb-3 overflow-auto">
           <Row>
             <Col lg="4">
-              <Card className="my-2 mx-2" style={{ height: "33rem" }}>
-                <CardHeader>Omega Labs</CardHeader>
-                <CardBody>
+              <Card className="my-2 mx-2 flash" style={{ height: "33rem" }}>
+                <CardHeader className="text-center">Omega Labs</CardHeader>
+                <CardBody className="text-center">
                   <img
                     src="http://propertyyy.com/wp-content/uploads/2020/11/dr-lal-pathlabs-stock-research.png"
                     alt=""
@@ -36,21 +36,21 @@ function Cards() {
                     Standardization).
                   </CardText>
                 </CardBody>
-                <CardFooter>
-                  <Link to="/visualize" className="button-7">
+                <CardFooter className="text-center">
+                  <Link to="/labs" className="button-7">
                     Click here to know more
                   </Link>
                 </CardFooter>
               </Card>
             </Col>
             <Col lg="4">
-              <Card className="my-2 mx-2" style={{ height: "33rem" }}>
-                <CardHeader>Qaly Pharmacy</CardHeader>
-                <CardBody>
+              <Card className="my-2 mx-2 flash" style={{ height: "33rem" }}>
+                <CardHeader className="text-center">Qaly Pharmacy</CardHeader>
+                <CardBody className="text-center">
                   <img
                     src="https://entrackr.com/storage/2018/03/pharmeasy-image.jpg"
                     alt=""
-                    className="img-fluid"
+                    className="img-fluid mb-3"
                   ></img>
                   <CardText className="pt-2">
                     PharmEasy is a consumer healthcare “super app” that provides
@@ -61,22 +61,24 @@ function Cards() {
                     needs.
                   </CardText>
                 </CardBody>
-                <CardFooter>
-                  <Link to="/visualize" className="button-7">
+                <CardFooter className="text-center">
+                  <Link to="/pharmacy" className="button-7">
                     Click here to know more
                   </Link>
                 </CardFooter>
               </Card>
             </Col>
             <Col lg="4">
-              <Card className="my-2 mx-2" style={{ height: "33rem" }}>
-                <CardHeader>Shivani's Kitchen</CardHeader>
-                <CardBody>
+              <Card className="my-2 mx-2 flash" style={{ height: "33rem" }}>
+                <CardHeader className="text-center">
+                  Shivani's Kitchen
+                </CardHeader>
+                <CardBody className="text-center">
                   <div className="d-flex justify-content-center">
                     <img
                       src="https://bizrise.s3.ap-south-1.amazonaws.com/store/img/6246745/product/sweet-boondi250gm/sweet-boondi250gm-1643366265136_1.jpg"
                       alt=""
-                      className="img-fluid w-75 h-auto"
+                      className="img-fluid w-75 h-auto mb-3"
                     ></img>
                   </div>
                   <CardText className="pt-2">
@@ -84,8 +86,8 @@ function Cards() {
                     delivery all over India.
                   </CardText>
                 </CardBody>
-                <CardFooter>
-                  <Link to="/visualize" className="button-7">
+                <CardFooter className="text-center">
+                  <Link to="/kitchen" className="button-7">
                     Click here to know more
                   </Link>
                 </CardFooter>
@@ -93,9 +95,9 @@ function Cards() {
             </Col>
 
             <Col lg="6">
-              <Card className="my-2" style={{ height: "33rem" }}>
-                <CardHeader>Abhinaya Agencies</CardHeader>
-                <CardBody>
+              <Card className="my-2 flash" style={{ height: "33rem" }}>
+                <CardHeader className="text-center">Harish Agencies</CardHeader>
+                <CardBody className="text-center">
                   <img
                     src="https://www.newsorbiter.com/wp-content/uploads/2020/07/housejoy.jpg"
                     alt=""
@@ -107,21 +109,21 @@ function Cards() {
                     Bangalore's best house construction company.
                   </CardText>
                 </CardBody>
-                <CardFooter>
-                  <Link to="/visualize" className="button-7">
+                <CardFooter className="text-center">
+                  <Link to="/harishagencies" className="button-7">
                     Click here to know more
                   </Link>
                 </CardFooter>
               </Card>
             </Col>
             <Col lg="6">
-              <Card className="my-2" style={{ height: "33rem" }}>
-                <CardHeader>Maha Agencies</CardHeader>
-                <CardBody>
+              <Card className="my-2 flash" style={{ height: "33rem" }}>
+                <CardHeader className="text-center">Maha Agencies</CardHeader>
+                <CardBody className="text-center">
                   <img
-                    src="https://play-lh.googleusercontent.com/Trg_jmjQMImgKAkJDuRJfObcsRj9-5tHwPgEoiPtO-jmyePC1a4TvkOp2JmQtKOy0g=w600-h300-pc0xffffff-pd"
+                    src="https://www.graceonline.in/assets/img/top-lo.png"
                     alt=""
-                    className="img-fluid"
+                    className="img-fluid mb-4"
                   ></img>
                   <CardText className="pt-2">
                     GRACE SUPERMARKET’s first retail store was commissioned in
@@ -130,8 +132,8 @@ function Cards() {
                     of functioning into Organization.
                   </CardText>
                 </CardBody>
-                <CardFooter>
-                  <Link to="/visualize" className="button-7">
+                <CardFooter className="text-center">
+                  <Link to="/mahaagencies" className="button-7">
                     Click here to know more
                   </Link>
                 </CardFooter>

@@ -7,10 +7,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
 } from "reactstrap";
 
 function NavBar(args) {
@@ -26,28 +22,23 @@ function NavBar(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/visualize">Omega Labs</NavLink>
+              <NavLink href="/labs">Omega Labs</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/visualize">Qaly Pharmacy</NavLink>
+              <NavLink href="/pharmacye">Qaly Pharmacy</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/visualize">Shivani's Kitchen</NavLink>
+              <NavLink href="/kitchen">Shivani's Kitchen</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/visualize">Abhinaya Agencies</NavLink>
+              <NavLink href="/harishagencies">Harish Agencies</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/visualize">Maha Agencies</NavLink>
+              <NavLink href="/mahaagencies">Maha Agencies</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Contacts
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>About us</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="/">Log Out</NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
