@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Cart from "../../components/Cart";
 import Nav from "../../components/Nav";
+import Cart from "./cart";
 import PharmachyPage from "./pagePharmacy";
 
 const Pharmacy = () => {

@@ -24,20 +24,18 @@ function Cards() {
                 <CardHeader className="text-center">Omega Labs</CardHeader>
                 <CardBody className="text-center">
                   <img
-                    src="http://propertyyy.com/wp-content/uploads/2020/11/dr-lal-pathlabs-stock-research.png"
+                    src="https://www.omegalabs.net/media.acux/c266694a-4e67-470d-95dd-5e37d454b5ca-312x"
                     alt=""
-                    className="img-fluid"
+                    className="img-fluid mb-5"
                   ></img>
                   <CardText className="pt-2">
-                    Dr. Lal PathLabs, Rohini is NABL certified pathology lab in
-                    India. It is also among the few Indian laboratories which
-                    accredited by CAP (College of American Pathologists) and
-                    Certified by ISO 9001 (International Organization of
-                    Standardization).
+                    Omega is a well equipped testing analytical lab which
+                    specializes in providing high-accurate and On-time testing
+                    services to our global customers.
                   </CardText>
                 </CardBody>
                 <CardFooter className="text-center">
-                  <Link to="/labs" className="button-7">
+                  <Link to="/labsprofile" className="button-7">
                     Click here to know more
                   </Link>
                 </CardFooter>
@@ -48,21 +46,18 @@ function Cards() {
                 <CardHeader className="text-center">Qaly Pharmacy</CardHeader>
                 <CardBody className="text-center">
                   <img
-                    src="https://entrackr.com/storage/2018/03/pharmeasy-image.jpg"
+                    src="https://f.hubspotusercontent10.net/hub/491011/hubfs/pharmacy-background.jpg?length=2000&name=pharmacy-background.jpg"
                     alt=""
                     className="img-fluid mb-3"
                   ></img>
                   <CardText className="pt-2">
-                    PharmEasy is a consumer healthcare “super app” that provides
-                    consumers with on-demand, home delivered access to a wide
-                    range of prescription, OTC pharmaceutical, other consumer
-                    healthcare products, comprehensive diagnostic test services,
-                    and teleconsultations thereby serving their healthcare
-                    needs.
+                    Pharmacy is the clinical health science that links medical
+                    science with chemistry and it is charged with the discovery,
+                    production, disposal, safe.
                   </CardText>
                 </CardBody>
                 <CardFooter className="text-center">
-                  <Link to="/pharmacy" className="button-7">
+                  <Link to="/pharmacyprofile" className="button-7">
                     Click here to know more
                   </Link>
                 </CardFooter>
@@ -76,18 +71,19 @@ function Cards() {
                 <CardBody className="text-center">
                   <div className="d-flex justify-content-center">
                     <img
-                      src="https://bizrise.s3.ap-south-1.amazonaws.com/store/img/6246745/product/sweet-boondi250gm/sweet-boondi250gm-1643366265136_1.jpg"
+                      src="https://4.imimg.com/data4/FS/LT/MY-8734260/modern-hotel-kitchen-500x500.jpg"
                       alt=""
                       className="img-fluid w-75 h-auto mb-3"
                     ></img>
                   </div>
                   <CardText className="pt-2">
-                    Mittai Kadai is an online food ordering website with
-                    delivery all over India.
+                    A kitchen is a room or part of a room used for cooking and
+                    food preparation in a dwelling or in a commercial
+                    establishment.
                   </CardText>
                 </CardBody>
                 <CardFooter className="text-center">
-                  <Link to="/kitchen" className="button-7">
+                  <Link to="/kitchenaddress" className="button-7">
                     Click here to know more
                   </Link>
                 </CardFooter>
@@ -99,18 +95,19 @@ function Cards() {
                 <CardHeader className="text-center">Harish Agencies</CardHeader>
                 <CardBody className="text-center">
                   <img
-                    src="https://www.newsorbiter.com/wp-content/uploads/2020/07/housejoy.jpg"
+                    src="https://www.collinsdictionary.com/images/full/supermarket_406913140_1000.jpg"
                     alt=""
-                    className="img-fluid"
+                    className="img-fluid w-50 h-auto mb-4"
                   ></img>
                   <CardText className="pt-2">
-                    HouseJoy is a 100% transparent house construction company
-                    using an Project Management Consultants business model.
-                    Bangalore's best house construction company.
+                    A place of business usually owned and operated by a retailer
+                    but sometimes owned and operated by a manufacturer or by
+                    someone other than a retailer in which merchandise is sold
+                    primarily to ultimate consumers.
                   </CardText>
                 </CardBody>
                 <CardFooter className="text-center">
-                  <Link to="/harishagencies" className="button-7">
+                  <Link to="/harishaddress" className="button-7">
                     Click here to know more
                   </Link>
                 </CardFooter>
@@ -121,19 +118,21 @@ function Cards() {
                 <CardHeader className="text-center">Maha Agencies</CardHeader>
                 <CardBody className="text-center">
                   <img
-                    src="https://www.graceonline.in/assets/img/top-lo.png"
+                    src="https://assets-global.website-files.com/5f2a93fe880654a977c51043/620fd215f344f16633f1aafc_hero_2.jpeg"
                     alt=""
-                    className="img-fluid mb-4"
+                    className="img-fluid mb-4 w-50 h-auto"
                   ></img>
                   <CardText className="pt-2">
-                    GRACE SUPERMARKET’s first retail store was commissioned in
-                    Chennai in the year 1972. The augmentation took superior
-                    elevation and has positioned in the modern supermarket style
-                    of functioning into Organization.
+                    A large retail market that sells food and other household
+                    goods and that is usually operated on a self-service basis.a
+                    large retail market that sells food and other household
+                    goods and that is usually operated on a self-service basis.
+                    Any business or company offering an unusually wide range of
+                    goods or services.
                   </CardText>
                 </CardBody>
                 <CardFooter className="text-center">
-                  <Link to="/mahaagencies" className="button-7">
+                  <Link to="/mahaaddress" className="button-7">
                     Click here to know more
                   </Link>
                 </CardFooter>

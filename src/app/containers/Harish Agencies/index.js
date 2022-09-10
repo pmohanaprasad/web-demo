@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Cart from "../../components/Cart";
 import Nav from "../../components/Nav";
+import Cart from "./hCart";
 import HarishPage from "./pageHarish";
 
 const HarishAgencies = () => {

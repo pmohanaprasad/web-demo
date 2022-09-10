@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Nav from "../../components/Nav";
 import Cart from "./cart";
-import LabPage from "./pageLab";
+import HarishServicePage from "./pageServiceHarish";
 
-const Labs = () => {
+const Services = () => {
   const [show, setShow] = useState(true);
   const [cart, setCart] = useState([]);
 
@@ -23,9 +23,9 @@ const Labs = () => {
 
   return (
     <React.Fragment>
-      <Nav name={"Labs"} setShow={setShow} size={cart.length} />
+      <Nav name={"Harish Agencies"} setShow={setShow} size={cart.length} />
       {show ? (
-        <LabPage handleClick={handleClick} />
+        <HarishServicePage handleClick={handleClick} />
       ) : (
         <Cart cart={cart} setCart={setCart} handleChange={handleChange} />
       )}
@@ -33,4 +33,4 @@ const Labs = () => {
   );
 };
 
-export default Labs;
+export default Services;
