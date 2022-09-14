@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { Button, Container, FormGroup, Input, Label } from "reactstrap";
+import { Button, Col, Container, Input, Row } from "reactstrap";
 import { fetchData } from "../../redux/Name/nameSlice";
+
+import "./labsStyle.scss";
 
 const LabsProfile = () => {
   const [name, setName] = useState();
@@ -19,42 +21,44 @@ const LabsProfile = () => {
     <Container>
       <article>
         <h2 className="mt-5 pt-5 mb-5">Profile</h2>
-        <div className="d-flex flex-column justify-content-center">
-          <div className="mt-2 d-flex flex-row align-items-center justify-content-center">
-            <FormGroup className="d-flex flex-row align-items-center">
-              {" "}
-              <Label className="me-3">Name:</Label>
+        <Row className="d-flex flex-column justify-content-center">
+          <Row className="align-items-center justify-content-center">
+            <Col sm={3}>
+              <p className="primary-names text-end">Name</p>
+            </Col>
+            <Col sm={5}>
               <Input
                 type="text"
                 placeholder="Enter the Name"
                 onChange={(e) => setName(e.target.value)}
               />
-            </FormGroup>
-          </div>
-          <div className="mt-2 d-flex flex-row align-items-center justify-content-center">
-            <FormGroup className="d-flex flex-row align-items-center">
-              {" "}
-              <Label className="me-3">Gender:</Label>
-              {/* <Input type="text" placeholder="Gender" /> */}
+            </Col>
+          </Row>
+          <Row className="align-items-center justify-content-center">
+            <Col sm={3}>
+              <p className="primary-names text-end">Gender</p>
+            </Col>
+            <Col sm={5}>
               <select>
                 <option selected disabled>
-                  --Select gender--
+                  --Select Gender--
                 </option>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
                 <option value="non binary">Non-Binary</option>
                 <option value="prefer not to say">Prefer Not To Say</option>
               </select>
-            </FormGroup>
-          </div>
-          <div className="mt-2 d-flex flex-row align-items-center justify-content-center">
-            <FormGroup className="d-flex flex-row align-items-center">
-              {" "}
-              <Label className="me-3">DOB:</Label>
-              <Input type="date" placeholder="DD/MM/YYYY" />
-            </FormGroup>
-          </div>
-        </div>
+            </Col>
+          </Row>
+          <Row className="align-items-center justify-content-center">
+            <Col sm={3}>
+              <p className="primary-names text-end">Date-of-birth</p>
+            </Col>
+            <Col sm={5}>
+              <Input placeholder="dd-mm-yyyy" type="date" />
+            </Col>
+          </Row>
+        </Row>
         <Button color="success" className="float-end mt-3" onClick={redirect}>
           Update
         </Button>

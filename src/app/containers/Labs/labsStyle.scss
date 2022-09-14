@@ -128,3 +128,32 @@ article {
   margin-left: auto;
   margin-right: 0;
 }
+
+.warning {
+  color: red;
+}
+
+.primkary-contents {
+  padding: 2px 2px;
+}
+.primary-names {
+  color: black;
+  font-weight: bold;
+  font-family: Mulish;
+  text-align: center;
+  padding: 15px 10px;
+  width: 100%;
+  margin: 8px 0;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  // border: 1px solid rgb(32, 30, 30);
+  border-radius: 4px;
+  box-sizing: border-box;
+  // background-color: #e5e5e5;
+}
