@@ -49,11 +49,11 @@ const PharmacyReview = () => {
                 </FormGroup>
                 <FormGroup check>
                   <Input type="checkbox" />
-                  <Label check>13pm - 16pm</Label>
+                  <Label check>1pm - 4pm</Label>
                 </FormGroup>
                 <FormGroup check>
                   <Input type="checkbox" />
-                  <Label check>17pm - 21pm</Label>
+                  <Label check>5pm - 9pm</Label>
                 </FormGroup>
               </Form>
             </div>

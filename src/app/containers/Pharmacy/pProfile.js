@@ -1,13 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import {
-  Button,
-  Col,
-  Container,
-  Input,
-  Row,
-} from "reactstrap";
+import { Button, Col, Container, Input, Row } from "reactstrap";
 import { fetchData } from "../../redux/Name/nameSlice";
 
 const PharmacyProfile = () => {
@@ -28,7 +22,7 @@ const PharmacyProfile = () => {
         <Row className="d-flex flex-column justify-content-center">
           <Row className="align-items-center justify-content-center">
             <Col sm={3}>
-              <p className="primary-names text-end">Name</p>
+              <p className="primary-names text-start">Name</p>
             </Col>
             <Col sm={5}>
               <Input
@@ -40,7 +34,7 @@ const PharmacyProfile = () => {
           </Row>
           <Row className="align-items-center justify-content-center">
             <Col sm={3}>
-              <p className="primary-names text-end">Gender</p>
+              <p className="primary-names text-start">Gender</p>
             </Col>
             <Col sm={5}>
               <select>
@@ -56,7 +50,7 @@ const PharmacyProfile = () => {
           </Row>
           <Row className="align-items-center justify-content-center">
             <Col sm={3}>
-              <p className="primary-names text-end">Date-of-birth</p>
+              <p className="primary-names text-start">Date-of-birth</p>
             </Col>
             <Col sm={5}>
               <Input placeholder="dd-mm-yyyy" type="date" />
