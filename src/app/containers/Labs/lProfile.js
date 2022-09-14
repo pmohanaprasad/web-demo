@@ -35,14 +35,23 @@ const LabsProfile = () => {
             <FormGroup className="d-flex flex-row align-items-center">
               {" "}
               <Label className="me-3">Gender:</Label>
-              <Input type="text" placeholder="Gender" />
+              {/* <Input type="text" placeholder="Gender" /> */}
+              <select>
+                <option selected disabled>
+                  --Select gender--
+                </option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="non binary">Non-Binary</option>
+                <option value="prefer not to say">Prefer Not To Say</option>
+              </select>
             </FormGroup>
           </div>
           <div className="mt-2 d-flex flex-row align-items-center justify-content-center">
             <FormGroup className="d-flex flex-row align-items-center">
               {" "}
               <Label className="me-3">DOB:</Label>
-              <Input type="text" placeholder="DD/MM/YYYY" />
+              <Input type="date" placeholder="DD/MM/YYYY" />
             </FormGroup>
           </div>
         </div>
